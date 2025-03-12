@@ -1,0 +1,75 @@
+/* Общий стиль */
+QWidget {
+    background-color: #2C2F33;
+    color: #DCDDDE;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12px;
+}
+
+/* Заголовки */
+QLabel#Title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #7289DA;
+}
+
+/* Поля ввода */
+QLineEdit {
+    background-color: #36393F;
+    border: 1px solid #40444B;
+    border-radius: 5px;
+    padding: 5px;
+    color: #DCDDDE;
+}
+
+QLineEdit:focus {
+    border: 1px solid #7289DA;
+}
+
+/* Кнопки */
+QPushButton {
+    background-color: #7289DA;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 12px;
+}
+
+QPushButton:hover {
+    background-color: #5B6B9E;
+}
+
+QPushButton:pressed {
+    background-color: #4A567C;
+}
+
+/* Список сервисов */
+QListWidget {
+    background-color: #36393F;
+    border: 1px solid #40444B;
+    border-radius: 5px;
+    color: #DCDDDE;
+}
+
+QListWidget::item:selected {
+    background-color: #7289DA;
+    color: #FFFFFF;
+}
+
+/* Диалоговые окна */
+QDialog {
+    background-color: #2C2F33;
+    border: 1px solid #40444B;
+    border-radius: 10px;
+}
+
+/* Уведомления */
+QMessageBox {
+    background-color: #2C2F33;
+    color: #DCDDDE;
+}
+
+QMessageBox QLabel {
+    color: #DCDDDE;
+}
