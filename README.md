@@ -177,16 +177,3 @@ project/
 
 ---
 
-### Лицензия
-Этот проект распространяется под лицензией MIT. Подробности см. в файле `LICENSE`.
-
---- 
-
-### Контакты
-Если у вас есть вопросы или предложения, свяжитесь с автором:
-- Email: [your_email@example.com](mailto:your_email@example.com)
-- GitHub: [YourGitHubProfile](https://github.com/YourGitHubProfile)
-
---- 
-
-Enjoy using the Password Manager! 😊
